@@ -62,7 +62,41 @@ In summary, the Masked Language Model objective allows BERT to learn by predicti
 In essence, BERT's bidirectional context understanding is a result of its Transformer architecture and the MLM objective during pre-training, which together allow it to consider the full context of a word—both the words that come before it and the words that come after. This results in rich, contextual word representations.
 
 ### What are the challenges BERT addresses in natural language processing?
-Your answer here.
+BERT addresses several longstanding challenges in Natural Language Processing, revolutionizing how machines understand and process language. There are several key challenges BERT tackles well:
+
+- Understanding Context
+
+1. **Ambiguity**: Many words have multiple meanings depending on their context. BERT's bidirectional context understanding helps to disambiguate these words effectively.
+
+2. **Word Relationships**: Traditional models often fail to capture relationships between non-adjacent words. BERT's attention mechanism and multi-layered architecture help it understand more complex, long-range dependencies.
+
+- Pre-training and Fine-tuning
+
+1. **Resource Efficiency**: Traditional NLP models required task-specific architectures, resulting in the need to train separate models for each task. BERT can be fine-tuned for multiple tasks, saving computational resources and time.
+
+2. **Data Scarcity**: Fine-tuning a pre-trained BERT model requires fewer labeled data to achieve good performance, addressing the data scarcity challenge for many NLP tasks.
+
+- Feature Representation
+
+1. **High-Quality Embeddings**: BERT produces richer word embeddings than earlier models, capturing not just syntactic but also semantic nuances.
+
+2. **Versatility**: Unlike task-specific embeddings, BERT's embeddings are highly versatile and can be used across a wide range of NLP tasks.
+
+- Complex Understanding
+
+1. **Sentence Pairs**: BERT can work with pairs of sentences, which is essential for tasks like question-answering, text summarization, and natural language inference.
+
+2. **Hierarchical Understanding**: BERT's multi-layered architecture allows it to capture hierarchical structures in language, understanding not just words and phrases but also the higher-level relationships between sentences.
+
+### What are some Limitations and Challenges to using BERT
+
+While BERT addresses many issues, it's worth noting that it also has limitations:
+
+1. **Computational Intensity**: BERT models, especially larger variants, require significant computational resources for both training and inference.
+
+2. **Interpretability**: Like many deep learning models, BERT is often considered a "black box," making it difficult to understand why it makes specific predictions.
+
+3. **Token Limitations**: BERT has a maximum token limit (e.g., 512 tokens for BERT-Base), which can be a challenge for very long documents.
 
 ### How is the attention mechanism utilized in BERT's architecture?
 Your answer here.
