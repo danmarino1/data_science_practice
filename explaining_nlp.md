@@ -99,7 +99,7 @@ While BERT addresses many issues, it's worth noting that it also has limitations
 3. **Token Limitations**: BERT has a maximum token limit (e.g., 512 tokens for BERT-Base), which can be a challenge for very long documents.
 
 ### How is the attention mechanism utilized in BERT's architecture?
-Your answer here.
+The attention mechanism refers to the usage of transformers, which utilizes a different form of learning compared to Recurrant Neural Networks.
 
 ### What are the two training stages in BERT, and what happens in each stage?
 Pre-training and fine-tuning are the two training stages.
