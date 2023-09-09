@@ -5,10 +5,10 @@
 - If they played 7 games, there are 7 * 7 different outcomes, and there's only two cases in which 7 games are played. therefore, the answer is 2/49 or .0408
   
 2. Say you roll a die three times. What is the probability of getting two sixes in a row?
-- 6*6*6 different possibilities, with two chances to get 2 sixes in a row. 2/216 or 0.00925
+- 6 * 6 * 6 different possibilities, with two chances to get 2 sixes in a row. 2/216 or 0.00925
 
 3. You roll three dice, one after another. What is the probability that you obtain three numbers in a strictly increasing order?
-- 6*6*6, is the number of total combinations, but the first number cannot be greater than 4. Therefore, it is 4*1*1, so 4 chances out of 212, or 0.0188
+- 6 * 6 * 6, is the number of total combinations, but the first number cannot be greater than 4. Therefore, it is 4 * 1 * 1, so 4 chances out of 212, or 0.0188
 
 4. Assume you have a deck of 100 cards with values ranging from 1 to 100, and you draw two cards at random without replacement. What is the probability that the number of one card is precisely double that of the other?
 - For the first card, we can have 100 to choose from. To satisfy the requirements, we need a number whose double is less than 100 (there are 50 of these). first thing (50/50). Then, for the second pull, we have only 1 card out of 99 that will satisfy the requirement. The answer, therefore, is (.5*.01), which is 0.005. It will happen one out of every 200 attempts.
