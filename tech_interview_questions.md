@@ -28,11 +28,17 @@
 11. You and your friend toss a coin until the sequence HH or TH shows up. What is the probability of you winning?
 
 12. You roll a 6-sided die up to two times. How much are you willing to pay to play this game?
+- Hmm this question is vague, so I will answer in terms of units. This is an expected value problem, one in which (I will assume) we are trying to get 1 outcome of a possible 12. That said, probability of winning is .08. It will need a payout of more than 12x my intial investment to be a game worth playing.
 
 13. Given that a rater has labeled four pieces of content as good, what is the probability that this rater is diligent?
 
 14. A couple has two children. You discover one is a boy. What is the probability the other is also a boy?
-
+- Well these events are likely independent, unless they are identical twins. Assuming fraternal twins (or any siblings, for that matter) each have a 50% chance of being males or females, and assuming there is an i% chance of twins being identical, the probability of having another boy is P(other is a boy) = (1−i) ×0.5 + i × 1
+- **1 - i:** This term represents the probability that the twins are not identical. If i is the probability that they are identical, then 1 - i is the probability that they are not.
+- **\* .5:** This is the probability that the other child is a boy, assuming that the children are not identical twins. Since the events are independent in this case, the probability remains 0.5 (or 50%).
+- **\* 1:** This represents the certainty (probability of 1 or 100%) that the other child is a boy if the twins are identical, and you know one of them is a boy.
+- **(1−i)×0.5+i×1:** The formula combines these two scenarios. It calculates the weighted sum of the probabilities for each case (non-identical and identical), based on how likely each case is (1−i and i, respectively).
+ 
 15. You open the first 7 drawers of a desk and find them empty. What is the probability the 8th drawer has a letter?
 
 16. Two players are at deuce in a tennis match. What is the probability that the first player wins the match?
