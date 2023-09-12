@@ -85,10 +85,15 @@
 
 ### Easy
 1. Explain the Central Limit Theorem. Why is it useful?
+- The central limit theorem notes that given a statistically significant sample, when surveying a particular attribute, most values will fall towards the middle, ie, the central limit. Values across sample will usually drift towards the middle, and distant values will taper off, creating what we know as the bell curve. 
+- This is one of the most important phenomenon in statistics, as we can gain many insights on a population (and on samples therein) using the Central Limit Theorem
 
 2. How would you explain a confidence interval to a non-technical audience?
+- Confidence intervals are incredibly important, as they highlight that we can never know precisely what an answer will be. For example, if you're investing in your retirement and expect to have $1,000,000 in your account by forty, you may be upset to find out that you only have $850,000 when that day comes. With a bit of tolerance through the use of a confidence interval, we can say that it's 95% likely that the account's value will be between $850,000 and $1,000,000. This helps decision makers and stakeholders plan better, as they can be much more flexible in their expectations, allowances, and risk tolerance. 
+- Confidence intervals recognize that statistics is merely a tool for guessing. It will never be precise. Therefore, confidence intervals highlight the imperfections of our analyses and allow us to plan for ranges and contingencies.
 
 3. What are some common pitfalls encountered in A/B testing?
+- A/B testing is extremely valueable, but some pitfalls could render it ineffective or counterproductive. Firstly, we need to control all variables except those for which we are testing. If we want to know how a new user interface (UI) affects click-through-rate, we want to test users who are sampled properly. We would not want to give our highest spenders one UI and our lookey-loos another then compare the two cohorts. We'll see different behaviors, and we wouldnt be able to isolate that the UI was the reason.
 
 4. Explain both covariance and correlation formulaically, and compare and contrast them.
 
