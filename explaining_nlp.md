@@ -35,7 +35,7 @@ Sure, let's dive into BERT's architecture! BERT stands for Bidirectional Encoder
 Pretraining and finetuning BERT involves feeding the model specific data that the trainer would like to give BERT a better understanding of. For example, if I were using BERT to further understand movie reviews, I would pre-train BERT on data related to film literature, reviews, and lessons, enabling it to more precisely identify otherwise very semantically similar words, providing more nuance to the model for this use case. (Review this to make sure it is right)
 
 ### Describe the masked language model (MLM) objective in BERT's pretraining.
-In traditional language models, the objective is usually to predict the next word in a sequence given the previous words. However, BERT changes this paradigm by using MLM. Instead of predicting the next word, it aims to predict a word that has been deliberately masked out from the input sequence.
+In traditional language models, the objective is usually to predict the next word in a sequence given the previous words. However, BERT changes this paradigm by using MLM. Instead of predicting the next word, it aims to predict a word that has been deliberately masked out from the input sequence. This enables the model to gain much more insight than sequential predicitions.
 
 **Masking**: During the pre-training phase, BERT takes a sentence (or a pair of sentences) and randomly masks out some percentage of the tokens. For example, the sentence "I love hiking" might become "I [MASK] hiking."
 Prediction: The model then tries to predict the masked tokens based on their surrounding context. Importantly, BERT looks at both the left and the right context, making it bidirectional.
