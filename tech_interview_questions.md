@@ -37,7 +37,6 @@
 
 9. Three friends in Seattle each say it is rainy, and each has a 1/3 probability of lying. What is the probability that it is actually rainy?
 
-
 10. You draw a circle and choose two chords at random. What is the probability that those chords will intersect?
 
 11. You and your friend toss a coin until the sequence HH or TH shows up. What is the probability of you winning?
