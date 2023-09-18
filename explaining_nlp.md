@@ -119,7 +119,7 @@ Your answer here.
 Your answer here.
 
 ### What is the purpose of multi-head attention in Transformers?
-Your answer here.
+Your answer here
 
 ### Describe positional encodings and their role in Transformers.
 Your answer here.
