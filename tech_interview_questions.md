@@ -5,7 +5,7 @@
 - If they played 7 games, there are 7 * 7 different outcomes, and there's only two cases in which 7 games are played. therefore, the answer is 2/49 or .0408.
   
 2. Say you roll a die three times. What is the probability of getting two sixes in a row?
-- 6 * 6 * 6 different possibilities, with two chances to get 2 sixes in a row. 2/216 or 0.00925
+- 6 * 6 * 6 different possibilities, with two chances to get 2 sixes in a row. 2/216 or 0.00925.
 
 3. You roll three dice, one after another. What is the probability that you obtain three numbers in a strictly increasing order?
 - 6 * 6 * 6, is the number of total combinations, but the first number cannot be greater than 4. Therefore, it is 4 * 1 * 1, so 4 chances out of 212, or 0.0188
