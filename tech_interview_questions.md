@@ -15,9 +15,22 @@
 
 5. Imagine you are in a 3D space. From (0,0,0) to (3,3,3), how many paths are there if you can move only up, right, and forward?
 
+
 6. One in a thousand people have a particular disease, and the test for the disease is 98% correct. If someone tests positive, what are the odds they have the disease?
+- This is a Bayes Theorem question, since we can gain insight on an event given prior events.
+- Formula is P(A∣B)= P(B∣A) × P(A) / P(B)
+- Where:
+   - P(A∣B) is the probability of having the disease given a positive test result.
+   - P(B∣A) is the probability of a positive test result given that you have the disease, which is 98% or 0.98.
+   - P(A) is the prior probability of having the disease, which is 0.1% or 0.001.
+   - P(B) is the total probability of getting a positive test result.
+
+- Calculating  P ( B ) P(B) To find  P ( B ) P(B), we consider two scenarios:  You have the disease and test positive:  P ( A ) × P ( B ∣ A ) = 0.001 × 0.98 = 0.00098 P(A)×P(B∣A)=0.001×0.98=0.00098 You don't have the disease but still test positive (false positive):  P ( ¬ A ) × P ( B ∣ ¬ A ) = 0.999 × 0.02 = 0.01998 P(¬A)×P(B∣¬A)=0.999×0.02=0.01998 So,  P ( B ) = 0.00098 + 0.01998 = 0.02096 P(B)=0.00098+0.01998=0.02096
+- Calculating P(A∣B) P(A∣B): P(A∣B)= (0.02096 / 0.00098) ≈ 0.0468
+- The probability of actually having the disease given a positive test result is approximately 0.0468 or 4.68%.
 
 7. Assume two coins, one fair and the other unfair. You flip it five times and get tails all five times. What is the probability that you are flipping the unfair coin?
+- This is also a Bayes' Theorem question. 
 
 8. Players A and B are playing a game where they flip a biased coin. What is the probability that A wins?
 - If the coin were unbiased, it would be 50/50 or a .5 probability that A wins. Since the coin is biased, it would be .5+- the bias (we'll call that b). Essentially p(A winning) = .5 +- b.
