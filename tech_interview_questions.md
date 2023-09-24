@@ -25,7 +25,7 @@
    - P(A) is the prior probability of having the disease, which is 0.1% or 0.001.
    - P(B) is the total probability of getting a positive test result.
 
-- Calculating  P ( B ) P(B) To find  P ( B ) P(B), we consider two scenarios:  You have the disease and test positive:  P ( A ) × P ( B ∣ A ) = 0.001 × 0.98 = 0.00098 P(A)×P(B∣A)=0.001×0.98=0.00098 You don't have the disease but still test positive (false positive):  P ( ¬ A ) × P ( B ∣ ¬ A ) = 0.999 × 0.02 = 0.01998 P(¬A)×P(B∣¬A)=0.999×0.02=0.01998 So,  P ( B ) = 0.00098 + 0.01998 = 0.02096 P(B)=0.00098+0.01998=0.02096
+- Calculating  P (B) P(B) To find  P ( B ) P(B), we consider two scenarios:  You have the disease and test positive:  P ( A ) × P ( B ∣ A ) = 0.001 × 0.98 = 0.00098 P(A)×P(B∣A)=0.001×0.98=0.00098 You don't have the disease but still test positive (false positive):  P ( ¬ A ) × P ( B ∣ ¬ A ) = 0.999 × 0.02 = 0.01998 P(¬A)×P(B∣¬A)=0.999×0.02=0.01998 So,  P ( B ) = 0.00098 + 0.01998 = 0.02096 P(B)=0.00098+0.01998=0.02096
 - Calculating P(A∣B) P(A∣B): P(A∣B)= (0.02096 / 0.00098) ≈ 0.0468
 - The probability of actually having the disease given a positive test result is approximately 0.0468 or 4.68%.
 
