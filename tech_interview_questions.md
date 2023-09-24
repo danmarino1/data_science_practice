@@ -88,7 +88,7 @@
 
 31. You have a jar with a single amoeba. What is the probability that there will eventually be no living amoeba?
 
-32. A fair coin is tossed n times. What is the probability that the first toss was heads given that there were k heads?
+32. A fair coin is tossed n times, so what is the probability that the first toss was heads given that there were k heads?
 
 33. You have Ni.i.d. draws of numbers following a normal distribution. What is the probability that k of those draws are larger than some value Y?
 
