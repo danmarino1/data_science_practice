@@ -36,7 +36,7 @@
 - If the coin were unbiased, it would be 50/50 or a .5 probability that A wins. Since the coin is biased, it would be .5+- the bias (we'll call that b). Essentially p(A winning) = .5 +- b.
 
 9. Three friends in Seattle each say it is rainy, and each has a 1/3 probability of lying. What is the probability that it is actually rainy?
-- Baysean 
+- 
 
 10. You draw a circle and choose two chords at random. What is the probability that those chords will intersect?
 
