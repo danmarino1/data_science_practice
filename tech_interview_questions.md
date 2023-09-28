@@ -31,6 +31,17 @@
 
 7. Assume two coins, one fair and the other unfair. You flip it five times and get tails all five times. What is the probability that you are flipping the unfair coin?
 - This is also a Bayes' Theorem question. 
+- A as the event that you are flipping the unfair coin.
+- B as the event that you get 5 tails in a row.
+- First, let's assume that you have an equal chance of picking either the fair or unfair coin initially. So, P(A)=0.5 and P(not A)=0.5
+- For a fair coin, the probability of getting 5 tails in a row is (.5)^5 or 0.03125.
+- Finally, P(B) can be calculated as the total probability of getting 5 tails in a row from either coin:
+- **P(B)=P(B∣A)×P(A)+P(B∣not A)×P(not A)**. 
+- **P(A|B) = (P(B|A) * P(A) / P(B))**
+- **P(A|B) = (1*0.5) / (33/64)**
+- **P(A|B) = 32/33**
+- So, the probability that you are flipping the unfair coin given that you got 5 tails in a row is 32/33 or approximately 0.97.
+
 
 8. Players A and B are playing a game where they flip a biased coin. What is the probability that A wins?
 - If the coin were unbiased, it would be 50/50 or a .5 probability that A wins. Since the coin is biased, it would be .5+- the bias (we'll call that b). Essentially p(A winning) = .5 +- b.
