@@ -102,13 +102,13 @@ While BERT addresses many issues, it's worth noting that it also has limitations
 The attention mechanism refers to the usage of transformers, which utilizes a different form of learning compared to Recurrant Neural Networks.
 
 ### What are the two training stages in BERT, and what happens in each stage?
-Pre-training and fine-tuning are the two training stages.
+Pre-training and fine-tuning are the two training stages. Pre-Training is far more computationally expensive than fine-tuning is.
 
 ### How does BERT handle out-of-vocabulary words?
-Your answer here.
+BERT handles out of vocabulary words by gathering components of the words themselves. It then encodes the out-of-vocabulary words according to its components.
 
 ### What are some potential limitations of BERT?
-Your answer here.
+Token limitation, interpretability, and computational intensity are all limitations of BERT.
 
 ## Transformer Architecture
 
