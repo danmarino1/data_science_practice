@@ -59,7 +59,8 @@ In summary, the Masked Language Model objective allows BERT to learn by predicti
 - Semantic Nuances: Bidirectional context allows BERT to capture the semantic meaning of a word in a way that unidirectional models cannot. For example, in the sentence "He was running a race," understanding both "He was running" and "a race" helps to understand that "running" here is a sport, not fleeing.
 - Disambiguation: Words with multiple meanings can be better disambiguated. For example, the word "bank" in "river bank" and "savings bank" would receive different embeddings because of the surrounding context.
 - Better Performance: This bidirectional understanding contributes to BERT's state-of-the-art performance on a variety of NLP tasks.
-In essence, BERT's bidirectional context understanding is a result of its Transformer architecture and the MLM objective during pre-training, which together allow it to consider the full context of a word—both the words that come before it and the words that come after. This results in rich, contextual word representations.
+
+In essence, BERT's bidirectional context understanding is a result of its Transformer architecture and the MLM objective during pre-training, which together allow it to consider the full context of a word: both the words that come before it and the words that come after. This results in rich, contextual word representations.
 
 ### What are the challenges BERT addresses in natural language processing?
 BERT addresses several longstanding challenges in Natural Language Processing, revolutionizing how machines understand and process language. There are several key challenges BERT tackles well:
@@ -103,6 +104,9 @@ The attention mechanism refers to the usage of transformers, which utilizes a di
 
 ### What are the two training stages in BERT, and what happens in each stage?
 Pre-training and fine-tuning are the two training stages. Pre-Training is far more computationally expensive than fine-tuning is.
+
+- In the pre-training phase, the model is given a large corpus of data and both Next Sentence Prediction (NSP) and Masked Language Modelling (MLM) are applied. 
+- In the fine-tuning phase, the model is given additional data (usually much less than what it is pre-trained on) to provide the model with additional information on specific topics. Fine tuning data could calibrate the model for tasks like sentiment analysis or clustering, or it could be used for giving the model internal information on a company or updated facts on a topic.
 
 ### How does BERT handle out-of-vocabulary words?
 BERT handles out of vocabulary words by gathering components of the words themselves. It then encodes the out-of-vocabulary words according to its components.
