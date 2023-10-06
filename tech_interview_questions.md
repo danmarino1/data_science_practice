@@ -13,7 +13,7 @@
 4. Assume you have a deck of 100 cards with values ranging from 1 to 100, and you draw two cards at random without replacement. What is the probability that the number of one card is precisely double that of the other?
 - For the first card, we can have 100 to choose from. To satisfy the requirements, we need a number whose double is less than 100 (there are 50 of these). first thing (50/50). Then, for the second pull, we have only 1 card out of 99 that will satisfy the requirement. The answer, therefore, is (.5*.01), which is 0.005. It will happen one out of every 200 attempts.
 
-5. Imagine you are in a 3D space. From (0,0,0) to (3,3,3), how many paths are there if you could move only up, right, and forward?
+5. Imagine you are in a 3D space. From (0,0,0) to (3,3,3), how many paths are there if you could move only up, right and forward?
 
 
 6. One in a thousand people have a particular disease, and the test for the disease is 98% correct. If someone tests positive, what are the odds they have the disease?
